@@ -40,7 +40,7 @@ function createAccnt() {
     let letters = /^([a-zA-Z ]*?)$/
     let charec = "^ (?=.*? [A - Z])(?=.*? [a - z])(?=.*? [0 - 9])(?=.*? [# ? !@$ %^&* -]).{ 8,} $"
 
-    
+    /*
         if (fullName == "") {
             alert('Name needed');
             valid = false;
@@ -94,7 +94,7 @@ function createAccnt() {
             alert('Password max length is 12');
             valid = false;
         }
-    
+    */
     if (valid) {
 
         if (!isUserRegistered(user)) {
