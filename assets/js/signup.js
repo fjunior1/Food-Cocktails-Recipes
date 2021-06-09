@@ -48,7 +48,7 @@ AVA code
     let pswExp = /^(([a-zA-Z0-9~!@#$%^&*-_.?]{5,})*?)$/
     
 
-    
+    /*
         if (fullName == "") {
             alert('Name needed');
             valid = false;
@@ -103,6 +103,7 @@ AVA code
             valid = false;
         }
   
+
     if (valid) {
 
         if (!isUserRegistered(user)) {
