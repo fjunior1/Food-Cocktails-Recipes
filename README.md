@@ -30,4 +30,5 @@ In the future we would like to develope a favorites page to store recipes/cockat
 
 Links-
 Deployed project - https://fjunior1.github.io/test-prj1/
+
 Docs folder containing pictures of the deployed site - https://github.com/fjunior1/test-prj1/tree/main/docs
