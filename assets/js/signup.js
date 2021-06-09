@@ -48,7 +48,7 @@ AVA code
     let pswExp = /^(([a-zA-Z0-9~!@#$%^&*-_.?]{5,})*?)$/
     
 
-    /*
+
         if (fullName == "") {
             alert('Name needed');
             valid = false;
@@ -84,17 +84,19 @@ AVA code
             alert('Enter Confirm Password');
             valid = false;
         }
+            /*
         else if (!pswExp.test(pwd)) {
             alert('Password does not meet criteria. Upper case, Lower case, Special character and Numeric letter are required in Password filed');
             valid = false;
         }
+            */
         else if (pwd != confPwd) {
             alert('Passwords do not match');
             valid = false;
         }
     
         if (document.getElementById("psw").value.length < 5) {
-            alert('Password minimum length is 8');
+            alert('Password minimum length is 5');
             valid = false;
         }
     
@@ -119,7 +121,7 @@ AVA code
             $("#signupMsg").css("color", "red");;
             $("#signupMsg").text("User already registered.");
 
-            setTimeout(function () { window.location.assign("signup.html") }, 3000);
+            setTimeout(function () { window.location.assign("index.html") }, 3000);
         }
     }
    
