@@ -50,7 +50,7 @@ const createCards = (test) => {
           const myRecipe = document.createElement("p");
           myRecipe.className = "myScroll";
           myRecipe.innerHTML = myRecipeData.drinks[0].strInstructions;
-          myRecipe.id = `cockatil${myData.drinks[i].idDrink}`;
+          myRecipe.id = `cockatil${myData.drinks[0].idDrink}`;
 
           appendRecipe = myRecipe;
 
