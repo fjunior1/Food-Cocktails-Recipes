@@ -46,7 +46,7 @@ AVA code
     let letters = /^([a-zA-Z ]*?)$/
     let charec = /^([a-zA-Z]*?)$/
     let pswExp = /^(([a-zA-Z0-9~!@#$%^&*-_.?]{5,})*?)$/
-    
+    let emailTest = /^(.+)@(.+)$/
 
 
         if (fullName == "") {
@@ -66,17 +66,17 @@ AVA code
             alert('Username field required only alphabet characters');
             valid = false;
         }
-    /*
+    
         if (email == "") {
             alert('Email needed');
             valid = false;
         }
-        else if (!letter.test(email)) {
+        else if (!emailTest.test(email)) {
             alert(' Email Invalid ');
             valid = false;
         }
-    */
-        else if (pwd == '') {
+    
+        if (pwd == '') {
             alert('Please enter Password');
             valid = false;
         }
@@ -90,7 +90,7 @@ AVA code
             valid = false;
         }
             */
-        else if (pwd != confPwd) {
+         if (pwd != confPwd) {
             alert('Passwords do not match');
             valid = false;
         }
