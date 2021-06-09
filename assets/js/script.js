@@ -37,13 +37,14 @@ function createMenu() {
     licktl.append(acktl);
 
     // favorites menu item
+  /*
     let lifav = $("<li>");
     lifav.attr("id", "favoritesmenu");
     let afav = $("<a>");
     afav.text("Favorites");
     afav.attr("href", "favorites.html")
     lifav.append(afav);
-
+*/
     // logout menu item
     let lilogout = $("<li>");
     // no id needed for this menu item
@@ -56,7 +57,7 @@ function createMenu() {
     menu.append(lipro)
     menu.append(lipre);
     menu.append(licktl);
-    menu.append(lifav);
+   // menu.append(lifav);
     menu.append(lilogout);
 
     return menu;

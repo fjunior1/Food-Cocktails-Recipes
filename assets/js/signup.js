@@ -35,10 +35,18 @@ function createAccnt() {
     let letters = /[a-zA-Z0-9_][a-zA-Z0-9_ ]*[a-zA-Z0-9_]$/;
     let charec = /(a-z,A-Z,0-9_)(a-zA-Z0-9\-)(?=.*?[#?!@$%^&*-])/;
     */
-
-    let pswExp = /^(([a-zA-Z0-9 ~!@#$%^&*-_.?]{8,})*?)$/ /* "^ (?=.*? [A - Z])(?=.*? [a - z])(?=.*? [0 - 9])(?=.*? [# ? !@$ %^&* -]).{ 8,} $" */
+/*  
+AVA code
+    // "^ (?=.*? [A - Z])(?=.*? [a - z])(?=.*? [0 - 9])(?=.*? [# ? !@$ %^&* -]).{ 8,} $" 
+    let pswExp = /^(([a-zA-Z0-9 ~!@#$%^&*-_.?]{8,})*?)$/ 
     let letters = /^([a-zA-Z ]*?)$/
     let charec = "^ (?=.*? [A - Z])(?=.*? [a - z])(?=.*? [0 - 9])(?=.*? [# ? !@$ %^&* -]).{ 8,} $"
+    */    
+    
+    let letters = /^([a-zA-Z ]*?)$/
+    let charec = /^([a-zA-Z]*?)$/
+    let pswExp = /^(([a-zA-Z0-9~!@#$%^&*-_.?]{5,})*?)$/
+    
 
     
         if (fullName == "") {
@@ -58,7 +66,7 @@ function createAccnt() {
             alert('Username field required only alphabet characters');
             valid = false;
         }
-    
+    /*
         if (email == "") {
             alert('Email needed');
             valid = false;
@@ -67,7 +75,7 @@ function createAccnt() {
             alert(' Email Invalid ');
             valid = false;
         }
-    
+    */
         else if (pwd == '') {
             alert('Please enter Password');
             valid = false;
@@ -85,16 +93,16 @@ function createAccnt() {
             valid = false;
         }
     
-        if (document.getElementById("pws").value.length < 8) {
+        if (document.getElementById("psw").value.length < 5) {
             alert('Password minimum length is 8');
             valid = false;
         }
     
-        if (document.getElementById("pws").value.length > 12) {
+        if (document.getElementById("psw").value.length > 12) {
             alert('Password max length is 12');
             valid = false;
         }
-    
+  
     if (valid) {
 
         if (!isUserRegistered(user)) {
@@ -113,8 +121,10 @@ function createAccnt() {
             setTimeout(function () { window.location.assign("signup.html") }, 3000);
         }
     }
+   
 }
 
+    
 //store account using standard functions from storage.js
 /*
 function store() {
