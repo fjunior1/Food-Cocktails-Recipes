@@ -1,0 +1,17 @@
+/*
+Login and signup CS styling
+*/
+
+#main {
+    display:flex;
+    flex-direction: column;
+}
+
+#signtitle {
+    background-color: green;
+}
+
+#entry {
+    display:flex;
+    flex-direction: column;
+}
