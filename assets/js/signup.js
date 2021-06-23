@@ -46,7 +46,7 @@ AVA code
     let letters = /^([a-zA-Z ]*?)$/
     let charec = /^([a-zA-Z]*?)$/
     let pswExp = /^(([a-zA-Z0-9~!@#$%^&*-_.?]{5,})*?)$/
-    let emailTest = /^(.+)@(.+)$/
+    let emailTest = /^([a-zA-Z_.-]+)@([a-zA-z]+)[.]([a-zA-z]+)$/ /*/^(.+)@(.+)$/*/
 
 
         if (fullName == "") {
