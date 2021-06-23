@@ -1,14 +1,14 @@
-# Project-1
+# Project - Food and Cocktail Recipes
 
 Food and Drink Recipe Finder Website
 Simple Recipe App created with Vanilla JS, HTML and CSS.
 
 ## Table of contents
-General Info
-Technologies 
-Features
-Future devlopement
-Links
+- General Info  
+- Technologies   
+- Features  
+- Future devlopement  
+- Links  
 
 ## General Info
 Food and Drink Recipe Finder Website is a application created to generate recipes and cocktail options for the everyday person. With a very simple user friendly interface users are able to simply access the application and select preferred recipes to prepare and consume. 
@@ -35,8 +35,8 @@ Deployed project - https://fjunior1.github.io/test-prj1/
 Docs folder containing pictures of the deployed site - https://github.com/fjunior1/test-prj1/tree/main/docs
 
 
-<img src="./docs/login.jpg" alt="alt text" width="350" height="350">  
-<img src="./docs/cuisine-recipes.jpg" alt="alt text" width="350" height="350">  
-<img src="./docs/cocktail-recipe.jpg" alt="alt text" width="350" height="350">  
+<img src="./docs/login.jpg" alt="alt text" width="390" height="350">  
+<img src="./docs/cuisine-recipes.jpg" alt="alt text" width="390" height="350">  
+<img src="./docs/cocktail-recipe.jpg" alt="alt text" width="390" height="350">  
 
 
